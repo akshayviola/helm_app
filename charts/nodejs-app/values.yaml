@@ -2,7 +2,7 @@ replicaCount: 1
 
 image:
   repository: akshay2001a/nodejs-app
-  tag: "8"
+  tag: "9"
   pullPolicy: IfNotPresent
 
 service:
