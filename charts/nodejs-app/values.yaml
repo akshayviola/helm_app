@@ -2,8 +2,13 @@ replicaCount: 1
 
 image:
   repository: akshay2001a/nodejs-app
+<<<<<<< HEAD
   tag: "9"
   pullPolicy: IfNotPresent
+=======
+  tag: "8"
+  pullPolicy: Always
+>>>>>>> 31049db (value.yaml configured)
 
 service:
   type: NodePort
