@@ -1,0 +1,21 @@
+replicaCount: 1
+
+image:
+  repository: akshay2001a/nodejs-app
+  tag: "latest"
+  pullPolicy: IfNotPresent
+
+service:
+  type: NodePort
+  port: 80
+  nodePort: 30007
+
+ingress:
+  enabled: true
+  annotations: {}
+  hosts:
+    - host: nodejs-app.local
+      paths: ["/"]
+  tls: []
+
+resources: {}
