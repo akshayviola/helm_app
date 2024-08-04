@@ -5,3 +5,4 @@ resources:
 - gotk-sync.yaml
 - gitrepository.yaml
 - helmrelease.yaml
+- ../../charts/nodejs-app/templates/deployment.yaml
